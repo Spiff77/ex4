@@ -1,0 +1,6 @@
+<h3>Liste des vols</h3>
+<div [class.late]="v.late" *ngFor="let v of vols">
+  <div><span>Numéro:</span> {{v.volNumber}}</div>
+  <div><span>Aéroport de départ:</span>{{v.departureAirportCode}}</div>
+  <div><span>Aéroport d'arrivé:</span>{{v.arrivalAirportCode}}</div>
+</div>
